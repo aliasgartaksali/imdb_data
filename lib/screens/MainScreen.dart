@@ -58,6 +58,7 @@ class _MainScreenState extends State<MainScreen> {
             ),
             TextField(
               controller: _textFieldController,
+              // onSubmitted: () => fetchAllMovies(),
               decoration: InputDecoration(
                 border: OutlineInputBorder(
                   borderSide: BorderSide(color: Colors.black87),
