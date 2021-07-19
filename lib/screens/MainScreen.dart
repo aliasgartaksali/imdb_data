@@ -76,7 +76,7 @@ class _MainScreenState extends State<MainScreen> {
             SizedBox(
               height: 20,
             ),
-            (_allMovies == 0) ? (_isLoading ? CircularProgressIndicator() : Text("No movies to show currently...start typing something (Ex: Thor) and then click on the search button to view the movies.")) : MovieList(),
+            (_allMovies == 0) ? (_isLoading ? CircularProgressIndicator() : Text("No movies to show currently...start typing something (Ex: Interstellar) and then click on the search button to view the movies.")) : MovieList(),
           ],
         ),
       ),
